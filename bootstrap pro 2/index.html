@@ -58,10 +58,90 @@
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-info" type="submit">Search</button>
         </form>
+           <div class="mx-2">
+          <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#loginModal">Login </button>
+          <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#signupModal">Sign up </button>
+        </div>
       </div>
     </div>
   </nav>
   <!-- navbar end -->
+
+
+  <!-- sing up model -->
+       <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login To Islamic Site</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+   <!-- login model end -->
+
+   <!-- sign up in -->
+   <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Get an Islamic Site Account</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>       
+
+    <!-- login end -->
   <!-- cards -->
   <div class="container">
     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -92,7 +172,7 @@
 
 
 </p>
-              <p><a class="btn btn-lg btn-dark" href="#">Sign up now</a></p>
+              <p><a class="btn btn-lg btn-dark" href="#" onclick="alert('Go Login Button to Sign up  and Get Account')">Sign up now</a></p>
             </div>
           </div>
         </div>
@@ -106,7 +186,7 @@
             <div class="carousel-caption">
               <h1>Another example headline.</h1>
               <p>Our Islamic website provides Quran, Hadith, and Islamic teachings..</p>
-              <p><a class="btn btn-lg btn-dark" href="#">Learn more</a></p>
+              <p><a class="btn btn-lg btn-dark" href="#" onclick="alert('Go About Page')">Learn more</a></p>
             </div>
           </div>
         </div>
@@ -120,7 +200,7 @@
             <div class="carousel-caption text-end">
               <h1></h1>
               <p>Our Islamic website shares articles about prayer, fasting, and good deeds..</p>
-              <p><a class="btn btn-lg btn-dark" href="#">Learn more</a></p>
+              <p><a class="btn btn-lg btn-dark" href="#"  onclick="alert('Go About Page')">Learn more</a></p>
             </div>
           </div>
         </div>
