@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#one{
+    border-radius: 200px;
+    margin-right: 50px;
+    background-color: green;
+    color: white;
+    
+}
+#two{
+    border-radius: 200px;
+    margin-right: 50px;
+    /* width: 100px; */
+    background-color: blue;
+    color: white;
+    
+}
+
+.navbar-nav{
+    text-align: center;
+}
+
+
+#five{
+    border-radius: 200px;
+    margin-right: 50px;
+    /* width: 100px; */
+    background-color: green;
+    color: white;
+    
+    
+}
+#four{
+    border-radius: 200px;
+    margin-right: 50px;
+    background-color: lightseagreen;
+    color: white;
+    
+}
+#ten{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
