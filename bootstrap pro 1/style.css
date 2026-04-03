@@ -10,3 +10,9 @@ body{
     justify-content: space-evenly;
     
 }
+#slide{
+    
+    height: 700px;
+    overflow: hidden;
+    background-position: bottom;
+}

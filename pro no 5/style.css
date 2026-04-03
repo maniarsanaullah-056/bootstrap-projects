@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    
+}
+#games:hover{
+    background-color: whitesmoke;
+    padding: auto;
+    border-bottom: 4px solid cyan;
+    border-top: 4px solid chartreuse;
+    transition:all 2s;
+}
+
+/* #nav:hover{
+    background-color: rgba(200, 150, 100, 1);
+    color: blue !important;
+    border-bottom: 4px solid cyan;
+    border-top: 4px solid chartreuse;
+    transition:all 2s;
+} */
+#one:hover{
+      background-color: rgba(200, 150, 100, 1);
+    color: blue !important;
+    border-bottom: 4px solid cyan;
+    border-top: 4px solid chartreuse;
+    transition:all 2s;
+}
+#two:hover{
+      background-color: greenyellow;
+    color: white !important;
+    border-bottom: 4px solid cyan;
+    border-top: 4px solid chartreuse;
+    transition:all 2s;
+}
+#three:hover{
+      background-color: violet;
+    color: blue !important;
+    border-bottom: 4px solid cyan;
+    border-top: 4px solid chartreuse;
+    transition:all 2s;
+}
+#four:hover{
+      background-color: purple;
+    color: blue !important;
+    border-bottom: 4px solid cyan;
+    border-top: 4px solid chartreuse;
+    transition:all 2s;
+}
+
+h1{
+    
+  background: linear-gradient( to right, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#six:hover{
+ background: linear-gradient(to right, #f12711, #f5af19);
+ transition:   5s;
+}
+.pic{
+    border-radius: 20px;
+}
+.pic:hover:hover{
+border-radius:50% ;
+border-bottom: 6px dashed yellow;
+border-top: 6px dashed orange;
+border-right: 6px dashed red;
+border-left: 6px dashed purple;
+animation: vip 5s linear infinite ;
+}
+
+@keyframes vip {
+    50%{
+        scale: 0; rotate: 100deg;
+    }
+     100%{
+        scale: 1; rotate: 360deg;
+    }
+}
+.card:hover{
+    border-bottom: 6px solid yellow;
+border-top: 6px solid orange;
+border-right: 6px solid red;
+border-left: 6px solid purple;
+transition: all 2s;
+animation: vipp 2s linear infinite ;
+}
+@keyframes vipp {
+    50%{
+        scale: 1; transform: translate(50px) ;
+    }
+     100%{
+        scale: 1.1; 
+    }
+}
